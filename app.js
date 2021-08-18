@@ -73,7 +73,7 @@ function filterTodo(event) {
     todos.forEach((todo) => {
         switch (event.target.value) {
             case "all":
-                odo.style.display = "flex"
+                todo.style.display = "flex"
                 break;
             case "completed":
                 if (todo.classList.contains("completed")) {
